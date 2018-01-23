@@ -1,0 +1,33 @@
+/*@import url('./reset.css');*/
+/*@import url('./normalize.css');*/
+@import url('./hightlight-default.css');
+@import url('./bootstrap.min.css');
+
+body {
+  background-color: #f4f4f4;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 35px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
